@@ -1,0 +1,9 @@
+#main-container {
+    height: 100%;
+    widows: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background: #333 url('./bg-stars.jpg');
+}
