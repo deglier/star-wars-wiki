@@ -1,0 +1,10 @@
+#main-container {
+    height: 100vh;
+    widows: 100vw;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background: #333 url('./bg-stars.jpg');
+    transition: all .5s ease-in-out;
+}
