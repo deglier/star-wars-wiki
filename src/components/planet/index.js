@@ -3,8 +3,6 @@ import React, { Component } from 'react';
 import './styles.css'
 import api from '../../services/api'
 
-// import { Container } from './styles';
-
 export default class Planet extends Component {
   constructor(props){
     super(props);
@@ -21,16 +19,7 @@ export default class Planet extends Component {
     }
   }
 
-  disppatchNewPlanet (){
-    const {changeBackground} = this.props
-    const {name}= this.state.planet
-    if(name !== 'unknown')
-      changeBackground(true, name)
-    else
-    changeBackground(false, '')
-  }
-
-  async componentDidMount(){
+   async componentDidMount(){
 
   }
 
@@ -47,8 +36,6 @@ export default class Planet extends Component {
             ...response.data
           }
         });
-
-        this.disppatchNewPlanet()
 
       } catch(err) {
         console.log(err);
