@@ -1,0 +1,32 @@
+.planet {
+  max-width: 95vw;
+  max-height: 95vh;
+  border: 4px double rgb(236, 216, 42);
+}
+.planet-name {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 4px double rgb(236, 216, 42);
+}
+
+.planet-props {
+  padding: 1.5rem;
+  line-height: 2.4rem;
+  font-size: 1.2rem;
+}
+
+.button {
+  margin-top: 1.3rem;
+  display: block;
+  border: 4px double rgb(236, 216, 42);
+  padding: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.planet-featured {
+  text-align: center;
+}
